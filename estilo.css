@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    background-color: #F4F5FB;
+    flex-direction: column;
+}
+
+section {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main{
+    /*border: solid 1px rgb(229, 255, 0);*/
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 450px;
+    width: 900px;    
+    align-self: center;
+    justify-self: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+#input {
+    flex: 85%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+    border-color: #D1D5DB;
+    border: 1px solid;
+}
+
+
+button {
+    margin: 0px;
+    flex: 10%;
+    border-radius: 10px;
+    background-color: #CA3884;
+    border-color: #D1D5DB;
+    border: 1px solid;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background-color: #A52C6B;
+    border-color: #B9C2D0;
+    border: 1px solid;
+}
+
+.Marcado{
+    border: solid 1px green;
+    text-decoration: line-through;
+    flex:97%;
+    height: 30px;
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
+}
+
+.NaoMarcado{
+    border: solid 1px rgb(43, 40, 40);
+    flex:97%;
+    
+    height: 30px;
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: justify;
+}
+
+.Marcado, .NaoMarcado {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.Delete {
+    flex: 3%;
+    height: 32px;
+    width: 10px;
+    background-color: red;
+    border: solid 1px black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.MsgRemovido {
+    margin: 10px;
+    border: solid 1px red;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    background: #C93847;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h2 {
+    margin-top: 0px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row ;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.section4 {
+    margin-top: 10px;
+    height: 60px;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+a img{
+    height: 20px;
+    width: 20px;
+}
+
+a p {
+    color: #CA3884;
+    margin-left: 3px;
+    
+}
+
+.MsgRemovido img {
+    height: 20px;
+    width: 20px;
+    justify-self: center;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.TextoRemovido{
+    display: flex;
+    text-justify: center;
+    text-align: center;
+    justify-self: center;
+    color: #FFFFFF;
+}
